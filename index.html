@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous" />
+      <link rel="stylesheet" href="app.css">
+    <title>Document</title>
+  </head>
+  <body background="bbb.jpg">
+
+<!-- NAVIGATION BAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-success">
+  <a class="navbar-brand" href="#">A-Tracker</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="Features.html">Features</a>
+      <a class="nav-item nav-link" href="#">Pricing</a>
+      <a class="nav-item nav-link" href="contact.html">Contact Us</a>
+      <a class="nav-item nav-link" href="#">About</a>
+      
+    </div>
+  </div>
+</nav>
+
+
+
+
+<script type="text/javascript" src="https://files.coinmarketcap.com/static/widget/coinMarquee.js"></script><div id="coinmarketcap-widget-marquee" coins="1,1027,825,5426,74,2010,1839,5161,6210,11156" currency="USD" theme="light" transparent="false" show-symbol-logo="true"></div>
+
+
+
+
+<!-- MAIN CONTENET   -->
+    <div class="container">
+      <div class="row justify-content-center">
+        <h1 class="col-md-7 text-center text-white p-3">Crypto Tracker</h1>
+        <h3 class="col-md-7 text-center text-white"><i>By Amann</i> </h3>
+        <div class="col-md-6 row justify-content-center">
+          <div class="col-10">
+            <form action=" " id="searchForm">
+              <div class="form-row">
+                <div class="col-12 form-group">
+                  <label for="xyz" class="text-white"><b>Coin Type</b></label>
+                  <input type="text" name="coinType" class="col-12 bg-success p-2 text-white bg-opacity-50 " >
+                  
+                  
+    
+                </div>
+              </div>
+              <button type="submit" class="col-12 btn-primary">
+                Get Price
+              </button>
+            </form>
+        </div>
+    </div>
+            <div class="col-12 text-center justify-content-center">
+              <table class="col-12 m-2 text-white" border="2px" id="table-result"> 
+                
+              </table>
+            </div>
+          </div>
+        </div>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="app.js"></script>
+    <!-- Smartsupp Live Chat script -->
+<script type="text/javascript">
+  var _smartsupp = _smartsupp || {};
+  _smartsupp.key = '1bd5234182dd416bfa665c9d9842839a286b0de4';
+  window.smartsupp||(function(d) {
+    var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
+    s=d.getElementsByTagName('script')[0];c=d.createElement('script');
+    c.type='text/javascript';c.charset='utf-8';c.async=true;
+    c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
+  })(document);
+  </script>
+  </body>
+</html>
